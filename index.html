@@ -4,23 +4,33 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/skeleton.css" />
-    <title></title>
+    <title>Index.html</title>
 </head>
-<body>
-<div nav style="background-color: #31393C; display: block; margin: 0; padding: 0;">
-    <!-- Fun Nav -->
-    <ul style="list-style-type: none; padding: 0; margin: 0">
-        <li><span style= "color: #B5CCC4"><a>Bio</a></span></li>
-        <li><span style= "color: #B5CCC4"><a>Projects</a></span></li>
-        <li><span style= "color: #B5CCC4"><a>Resume</a></span></li>
-        <li><span style= "color: #B5CCC4"><a>Contact</a></span></li>
-    </ul>
-</div>
-<div header>This is my header div</div>
-<div projects>This is my project carousel</div>
-<div bio>This is my Bio</div>
-<div contact>Contact me here</div>
-<div footer style="background-color:#056892; display: block; margin:0; padding: 0;"><span style = "color: white";>&#169; 2015 Michael Teagle</span></div>
-</body>
+    <body>
+        <div id="nav"; style="background-color: #31393C; display: block; margin: 0; padding: 0;">
+                    <!-- Fun Nav -->
+                    <ul style="list-style-type: none; padding: 0; margin: 0">
+                        <li><span class="navLi"; style= "color: #B5CCC4"><a>Bio</a></span></li>
+                        <li><span class="navLi"; style= "color: #B5CCC4"><a>Projects</a></span></li>
+                        <li><span class="navLi"; style= "color: #B5CCC4"><a href="html/resume.html">Resume</a></span></li>
+                        <li><span class="navLi"; style= "color: #B5CCC4"><a>Contact</a></span></li>
+            </ul>
+        </div>
+        <!-- TODO: set up these pages so they can be scrolled to in the navigation!-->
+        <div id="header">This is my header div</div>
+        <div id="projects">This is my project carousel</div>
+        <div id="bio">This is my Bio</div>
+        <!-- TODO: This needs some work to fix the ui look-->
+        <div id="contact">
+            <h4>Contact Me Here:</h4>
+            <form>
+                Name: <input type="text" />
+                Email: <input type="text" />
+                <p><span class="commentForm"; padding="5"><textarea>Enter Something here...</textarea></span>
+                <span class="commentForm"><input type="submit" value="Submit" /></span></p>
+            </form>
+        </div>
+        <div id="footer"; style="background-color:#056892; display: block; margin:0; padding: 0;"><span style = "color: white";>&#169; 2015 Michael Teagle</span></div>
+    </body>
 </html>
 
