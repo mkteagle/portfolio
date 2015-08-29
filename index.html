@@ -4,33 +4,86 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/skeleton.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
     <title>Index.html</title>
 </head>
-    <body>
-        <div id="nav"; style="background-color: #31393C; display: block; margin: 0; padding: 0;">
-                    <!-- Fun Nav -->
-                    <ul style="list-style-type: none; padding: 0; margin: 0">
-                        <li><span class="navLi"; style= "color: #B5CCC4"><a>Bio</a></span></li>
-                        <li><span class="navLi"; style= "color: #B5CCC4"><a>Projects</a></span></li>
-                        <li><span class="navLi"; style= "color: #B5CCC4"><a href="html/resume.html">Resume</a></span></li>
-                        <li><span class="navLi"; style= "color: #B5CCC4"><a>Contact</a></span></li>
-            </ul>
-        </div>
-        <!-- TODO: set up these pages so they can be scrolled to in the navigation!-->
+<body>
+<div class="content">
+    <div class="sidebar"; style="background-color: #31393C; display: block; margin: 0; padding: 0;">
         <div id="header">This is my header div</div>
+                <!-- Fun Nav -->
+        <nav class="navigation">
+            <ul class="main-naviagation" role="navigation">
+                <li><span class="navLi"; style= "color: #B5CCC4"><a href="#bio">Bio</a></span></li>
+                <li><span class="navLi"; style= "color: #B5CCC4"><a href="#projects">Projects</a></span></li>
+                <li><span class="navLi"; style= "color: #B5CCC4"><a href="html/resume.html">Resume</a></span></li>
+                <li><span class="navLi"; style= "color: #B5CCC4"><a href="#contact">Contact</a></span></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+        <!-- Start of the main page -->
+        <a name="projects"></a>
         <div id="projects">This is my project carousel</div>
-        <div id="bio">This is my Bio</div>
-        <!-- TODO: This needs some work to fix the ui look-->
-        <div id="contact">
-            <h4>Contact Me Here:</h4>
-            <form>
-                Name: <input type="text" />
-                Email: <input type="text" />
-                <p><span class="commentForm"; padding="5"><textarea>Enter Something here...</textarea></span>
-                <span class="commentForm"><input type="submit" value="Submit" /></span></p>
-            </form>
+        <a name="contact"></a>
+        <div id="contactMe">
+          <h4>Contact Me Here:</h4>
+          <div class="eight columns contact-us-form">
+              <form>
+                  <div class="row">
+                      <div class="four columns">
+                          <input class="u-full-width" type="text" placeholder="Name" id="nameInput">
+                      </div>
+                      <div class="four columns">
+                          <input class="u-full-width" type="email" placeholder="Email" id="emailInput">
+                      </div>
+                  </div>
+                  <textarea class="u-full-width" placeholder="Message" id="messageInput"></textarea>
+                  <input class="button u-pull-right" type="submit" value="Send" />
+              </form>
+          </div>
         </div>
-        <div id="footer"; style="background-color:#056892; display: block; margin:0; padding: 0;"><span style = "color: white";>&#169; 2015 Michael Teagle</span></div>
-    </body>
+        <a name="bio"></a>
+        <div id="bio">
+            <div id="myPhoto">
+                <img src="images/IMG_0363.JPG"; width="476"; height="357"; alt="Me in New York" />
+                </div>
+            <h4>Bio here</h4>
+            Lorem ipsum dolor sit amet, omnis quidam sensibus an duo, ex eam odio accusamus reformidans. Te quo mollis omnesque. Nihil utamur offendit cu his, vim amet splendide id, id probo aperiam viderer eos. Sed eu agam doming volumus. Viris virtute ex mei. Per no debitis argumentum omittantur, per affert nostrud dissentias ei, ei vim purto legere molestie.
+            Id utinam ubique sit. In sea duis audiam reformidans, mei at modus eleifend forensibus. Duo ex cibo nemore dolorem, vel ne sanctus honestatis. Suscipit vituperata ius et. Exerci aperiri quaerendum sit id, probatus intellegam usu et, an eum ridens aliquam labores. Quis assentior disputando vix ne, ei nibh virtute instructior duo.
+            Ex qui ornatus suscipiantur, affert alienum probatus ex sit. Sea et unum vero volumus, sit munere vocent animal ut. Recusabo mnesarchum eum no, usu causae definitiones et. Per ex quem salutatus. Eros porro fugit at vis. Nec te oporteat vivendum, etiam clita mea eu, quaeque delenit cotidieque mei ut.
+            Case animal ut nam, at clita aliquando signiferumque vim, per omnesque pertinax eu. Placerat tincidunt philosophia an vel. Cu postea equidem consetetur ius, tibique adipisci atomorum per et, quo unum atqui minimum an. Has legere patrioque liberavisse ut, no qui summo luptatum, quo utamur detracto dignissim et. Quodsi posidonium elaboraret id qui, ponderum verterem eleifend at sea.
+            Ex mea oportere delicatissimi, sed in rebum dignissim deseruisse. Duo et consequat intellegam. Nostrum torquatos pri ei, ea qui nonumes propriae. Mollis aperiri dolores sed ut. Nobis gloriatur ex usu, per illud congue consetetur ne, ex dicit nostro reprimique mei.
+            Sit mundi partem abhorreant in. Propriae euripidis mea cu. Dictas reprehendunt comprehensam sea id, fabulas debitis senserit sea ne. Est dicunt eligendi iracundia ut.
+            Malorum vulputate necessitatibus et sed, ea viris meliore mandamus sea, per cu option prompta instructior. In oportere percipitur usu, an audire atomorum salutatus cum. Dicta tritani nostrud pro no, malorum tincidunt cum ei, sea ei aliquando pertinacia maiestatis. Dicant alterum inimicus nam te, facilis nusquam intellegam cu vel. Facer elitr consequat ea vel, diam appareat quaestio qui at.
+            Nulla graecis comprehensam eu sit. Eum ne debitis praesent, tantas expetendis nec ex. At duo scriptorem cotidieque deterruisset, pri at summo dolores. Sea eu reque possit accusamus, an utamur nostrum eam. Eu nominavi tacimates elaboraret mea. Ea saperet maiorum appareat sed, ei mel reprimique constituam. Nec omnium consequat ut, an pri insolens interpretaris.
+            Mandamus salutatus sit no, ad duo semper contentiones, ea zril consulatu eam. Ea posse mandamus repudiare sea. An option scripserit pri, quo alienum suavitate in. Et iudicabit erroribus nec, nihil dissentiunt cum et. Vivendum volutpat omittantur ea vis, minim integre corrumpit mei no, placerat perpetua eos an. Sed ei aliquip fastidii, te eum maluisset repudiare, nonumes voluptaria reformidans nam te.
+            Eligendi officiis eu his, ne dolorem ceteros delicatissimi sea. Veniam appellantur sea in. Eam ferri augue albucius no, invidunt antiopam disputando no usu, eum ut decore torquatos moderatius. Zril neglegentur at eam, ex aperiri graecis forensibus est, no nam oportere qualisque gubergren. An cum velit soleat, pro ad modo oratio suavitate, vel at prompta copiosae oportere.
+            Sit ne tota eius commune, vis saperet dolorum imperdiet id, no cum primis minimum assueverit. Illud munere ea eos, vis te alii veri molestie. Summo assentior honestatis sea no, ei quo sale probo nullam. Qui zril oblique explicari ut. Id eos suas utinam, ne dicam concludaturque vim. Sit ea commodo aliquando dissentiet.
+            Ex laudem dictas moderatius pro, alterum imperdiet delicatissimi mel in. Ius et facer velit. Nam eu erant quaeque, utinam eripuit et his. Vim no inermis dolores. Eos ei fugit noster, ex mea affert aliquip percipit.
+            Noster putant perfecto pro in, eos tota meis accumsan eu. In dolor appetere pro, eu sit cibo epicuri recteque. Omnium consulatu theophrastus cu vis. Eos eu consul putent invenire. In dolore diceret usu, qui probo tempor ei, id sea quod debet epicurei.
+            Sea at iusto paulo invenire. Semper melius at usu. Eu ius partem copiosae, cu accusata percipitur nec. Id quo graeco periculis aliquando, ex purto quas quo. In usu cetero salutatus, eruditi ancillae ut mei. Admodum lobortis efficiendi ea mel, an quot graecis intellegam vis.
+            Has utinam sadipscing definitionem ad, mei graecis nusquam conclusionemque ne. Cu animal feugait detraxit ius, populo insolens ne eam, pri dicta harum an. Cum ea nostrud adipisci. Ei clita iriure voluptaria mel. Postea fierent per cu, vis eu verear epicurei salutatus. Ad qui ullum inermis, at nec labore animal apeirian, eu mea alia audire singulis.
+            Ne oratio partiendo sit. Te quo ubique indoctum. In eos nobis suavitate definitionem, ferri principes te ius. Appetere mandamus corrumpit ex mei, eu cum harum integre mediocrem. Id sumo dicam complectitur nam, eu audire regione vim, elitr recteque consectetuer mea ad.
+            Ut sed persecuti ullamcorper, aeque debitis splendide sit id. Ei ponderum lobortis interesset sea, at labitur aliquid voluptatibus eos. Nec et equidem nusquam qualisque. Sit ex sint putent meliore, inciderint persequeris usu te. Quidam maiorum in sed.
+            Nam idque populo eirmod ei, omnium verear diceret pri eu. Ad eam delenit maluisset, nonumes expetenda constituam sed cu. Usu in nobis utinam probatus, ea mei nostrud molestie assueverit, mel eu nisl summo. Ei impedit maiorum accusam has, movet probatus pro in.
+            Ius an porro solet tamquam, id eum magna oblique fabulas, at vix eruditi delectus. Cum no eligendi sententiae. Pro te ancillae vivendum consulatu, ei virtute admodum signiferumque eum. Et per choro complectitur definitionem, ad sed unum impetus eleifend.
+            Pri repudiare consequuntur ei, ut dicta soluta patrioque sit. Option docendi posidonium eos ne, alii dolore apeirian ius ut, percipitur definitiones mel no. Labitur reformidans te mea. Mei laoreet legendos iracundia ut, sed ei rebum quando. Est falli dicunt cu, ei idque lorem suscipiantur eum.
+        </div>
+        <!-- TODO: This needs some work to fix the ui look-->
+              <section class="footer u-full-width" style="background-color:#056892">
+                <div class="container">
+                    <div class="row">
+                        <div class="twelve columns">
+                            <h5>&copy 2015 Michael Teagle</h5>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        </div>
+</div>
+        <!--<div id="footer"; style="background-color:#056892; display: block; margin:0; padding: 0;"><span style = "color: white";>&#169; 2015 Michael Teagle</span></div>-->
+</body>
 </html>
 
