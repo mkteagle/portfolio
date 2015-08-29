@@ -126,20 +126,22 @@ body {
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
-content {
+.content {
   position: relative;
   width: 100%;
 }
-sidebar {
-  position: absolute;
+.sidebar {
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
-  width: 240px;
+  width: 480px;
+  background-color: #31393C;
+  min-height: 100%;
 }
-main {
+.main {
   position: relative;
-  margin-left: 250px;
+  margin-left: 480px;
 }
 
 /* Typography
@@ -302,7 +304,7 @@ label > .label-body {
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
-  list-style: circle inside; }
+  list-style: none; }
 ol {
   list-style: decimal inside; }
 ol, ul {
