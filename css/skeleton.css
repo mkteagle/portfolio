@@ -127,7 +127,7 @@ body {
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 .content {
-  position: relative;
+  /*position: relative;*/
   width: 100%;
 }
 .sidebar {
@@ -135,14 +135,27 @@ body {
   top: 0;
   bottom: 0;
   left: 0;
-  width: 480px;
-  background-color: #31393C;
-  min-height: 100%;
+  width: 320px;
+  float: left;
+  padding: 5px;
+  background-color: #3B525A;
 }
 .main {
-  position: relative;
-  margin-left: 480px;
+  background-color: #E0E4E7;
+  margin-left: 321px;
+  padding: 15px;
+  float: left;
 }
+.footer {
+    position: fixed;
+    bottom: 0;
+    /*clear: both;*/
+}
+.navigation {
+    margin-top: 50%;
+    margin-left: 30%;
+}
+
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -174,9 +187,13 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #B5CCC4; }
+  color: #B5CCC4;
+  text-decoration: none;
+}
 a:hover {
-  color: #0FA0CE; }
+  color: #0FA0CE;
+  text-decoration: none;
+}
 
 
 /* Buttons
@@ -317,7 +334,7 @@ ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%; }
 li {
-  margin-bottom: 1rem; }
+  margin-bottom: .15rem; }
 
 
 /* Code

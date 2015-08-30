@@ -182,6 +182,7 @@ sub {
  */
 
 img {
+  display: block;
   border: 0;
 }
 
