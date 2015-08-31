@@ -194,35 +194,10 @@ body {
   font-family: "amblelight", "Raleway", Helvetica, Arial, sans-serif;
   color: #222; }
 .content {
-  /*position: relative;*/
-  width: 100%;
+    /*position: relative;*/
+    width: 100%;
 }
-.sidebar {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 320px;
-  float: left;
-  padding: 5px;
-  background-color: #003366;
-}
-.main {
-  background-color: #E0E4E7;
-  margin-left: 330px;
-  padding-bottom: 15px;
-  float: left;
-}
-.footer {
-  position: relative;
-  margin-top: -75px; /* negative value of footer height */
-  height: 75px;
-  clear:both;
-}
-.navigation {
-    margin-top: 100%;
-    margin-left: 40%;
-}
+
 
 
 /* Typography
@@ -449,6 +424,17 @@ li {
     color: #0FA0CE;
     text-decoration: none;
 }
+.navigation li {
+    display: inline;
+}
+.navigation li a {
+    color: black;
+    text-decoration: none;
+}
+.navigation li a:hover {
+    color: #0FA0CE;
+    text-decoration: none;
+}
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -518,10 +504,41 @@ form {
 /* Sections
 -------------------------------------------------- */
 #bio {
+    margin-top: 5px;
     margin-bottom: 5px;
     padding-left: 15px;
 }
-
+.header {
+    position: relative;
+    background-color: #003366;
+    height: 44px;
+    clear: both;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 320px;
+    float: left;
+    padding: 5px;
+    background-color: #003366;
+}
+.main {
+    background-color: #E0E4E7;
+    margin-left: 330px;
+    padding-bottom: 15px;
+    float: left;
+}
+.footer {
+    position: relative;
+    margin-top: -75px; /* negative value of footer height */
+    height: 75px;
+    clear: both;
+}
+.navigation {
+    padding: 5px;
+}
 /* =Hero
 -------- */
 
