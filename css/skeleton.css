@@ -205,22 +205,23 @@ body {
   width: 320px;
   float: left;
   padding: 5px;
-  background-color: #3B525A;
+  background-color: #003366;
 }
 .main {
   background-color: #E0E4E7;
-  margin-left: 321px;
-  padding: 15px;
+  margin-left: 330px;
+  padding-bottom: 15px;
   float: left;
 }
 .footer {
-    position: fixed;
-    bottom: 0;
-    /*clear: both;*/
+  position: relative;
+  margin-top: -75px; /* negative value of footer height */
+  height: 75px;
+  clear:both;
 }
 .navigation {
-    margin-top: 50%;
-    margin-left: 30%;
+    margin-top: 100%;
+    margin-left: 40%;
 }
 
 
@@ -327,7 +328,36 @@ input[type="button"].button-primary:focus {
   color: #FFF;
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
+/* Button inverted */
 
+.button.inverted {
+    font-size: inherit;
+    padding: 25px 70px;
+    color: white;
+    height: auto;
+    border: 3px solid white;
+    text-transform: none;
+    font-size: 26px;
+    font-family: "ambleregular";
+}
+
+.button.inverted:hover {
+    background: white;
+    color: #222;
+}
+
+.button.circle {
+    padding: 0;
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+    border-radius: 50%;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    box-sizing: content-box;
+}
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -489,8 +519,84 @@ form {
 -------------------------------------------------- */
 #bio {
     margin-bottom: 5px;
+    padding-left: 15px;
 }
 
+/* =Hero
+-------- */
+
+.hero {
+    padding-left: 15px;
+    min-height: 500px;
+    text-align: center;
+    position: relative;
+    background-color: #d56d4d; /* layer fill content */
+    color: white;
+}
+.hero-image {
+    background: url("../images/usu-hero.jpg") no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    opacity: .9;
+}
+.hero-image:after {
+    content: '';
+    opacity: .87; /* layer alpha */
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSIxMDAlIiB5MT0iNTAlIiB4Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIiB5Mj0iNTAlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2JiNDI0MiIgc3RvcC1vcGFjaXR5PSIxIi8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VmYWI0YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+); /* gradient overlay */
+    background-image: -moz-linear-gradient(right, #003366 0%, #a4aeb5 100%); /* gradient overlay */
+    background-image: -o-linear-gradient(right, #003366 0%, #a4aeb5 100%); /* gradient overlay */
+    background-image: -webkit-linear-gradient(right, #003366 0%, #a4aeb5 100%); /* gradient overlay */
+    background-image: linear-gradient(right, #003366 0%, #a4aeb5 100%); /* gradient overlay */
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+.hero h2 {
+    font-size: 24px;
+}
+
+.hero p {
+    padding: 0 15%;
+}
+.hero .separator:before {
+    background-color: white;
+}
+
+/*Contact*/
+
+.contact-us {
+    padding-left: 15px;
+    background-color: #f2f2f2;
+    text-align: left;
+}
+.contact-us-details {
+    padding: 70px;
+}
+.contact-us-details h5 {
+    font-size: 2rem;
+}
+.contact-us-details .social-links a {
+    color: #222;
+    display: block;
+}
+
+.contact-us-details .social-links li {
+    list-style: none;
+    float: left;
+    font-size: 24px;
+    margin-right: 10px;
+}
+.contact-us-details .social-links li:last-child {
+    margin-right: 0;
+}
+.contact-us-form {
+    padding: 70px;
+    background-color: #e4e4e4;
+}
+.contact-us .row {
+    margin: 0;
+}
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 hr {
