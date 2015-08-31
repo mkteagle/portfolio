@@ -53,7 +53,7 @@
       <file leaf-file-name="skeleton.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/skeleton.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43814433">
+            <state vertical-scroll-proportion="-2.041237">
               <caret line="555" column="26" selection-start-line="555" selection-start-column="22" selection-end-line="555" selection-end-column="29" />
               <folding>
                 <element signature="e#13878#14529#2" expanded="true" />
@@ -235,9 +235,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="113" width="1440" height="810" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.115277775" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.115277775" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -444,7 +444,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/skeleton.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43814433">
+        <state vertical-scroll-proportion="-2.041237">
           <caret line="555" column="26" selection-start-line="555" selection-start-column="22" selection-end-line="555" selection-end-column="29" />
           <folding>
             <element signature="e#13878#14529#2" expanded="true" />
