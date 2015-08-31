@@ -108,16 +108,19 @@
                     </ul>
                 </div>
                 <div class="eight columns contact-us-form">
-                    <form>
-                        <div class="row">
-                            <div class="six columns">
+                    <form action="mailto:mkteagle@gmail.com" enctype="text/plain">
+                        <div class="six columns">
                                 <input class="u-full-width" type="text" placeholder="Name" id="nameInput">
                             </div>
                             <div class="six columns">
                                 <input class="u-full-width" type="email" placeholder="Email" id="emailInput">
                             </div>
+                            <div class="six columns">
+                                <input name="Subject" id="Subject" placeholder="Subject" type="hidden" value="Feedback from $nameInput">
+                            </div>
+                        <div class="row">
+                            <textarea class="u-full-width" placeholder="Message" id="messageInput"></textarea>
                         </div>
-                        <textarea class="u-full-width" placeholder="Message" id="messageInput"></textarea>
                         <input class="button u-pull-right" type="submit" value="Send">
                     </form>
                 </div>
