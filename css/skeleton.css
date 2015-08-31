@@ -424,15 +424,21 @@ li {
     color: #0FA0CE;
     text-decoration: none;
 }
+.navigation {
+    margin-left: 330px;
+}
 .navigation li {
     display: inline;
+    padding-top: 20px;
+    padding-left: 75px;
 }
 .navigation li a {
-    color: black;
+    font-size: 16px;
+    color: white;
     text-decoration: none;
 }
 .navigation li a:hover {
-    color: #0FA0CE;
+    color: #a4aeb5;
     text-decoration: none;
 }
 
@@ -510,7 +516,7 @@ form {
 }
 .header {
     position: relative;
-    background-color: #003366;
+    background-color: #0f2439;
     height: 44px;
     clear: both;
 }
