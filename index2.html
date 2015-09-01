@@ -80,7 +80,7 @@
                 <div class="four columns contact-us-details">
                     <h3>Our Location</h3>
                     <h5>
-                        1100 W Trvse Pkwy  <br />
+                        1100 West Traverse Pkwy  <br />
                         Lehi, UT 84043 <br />
                         (801) 683 9129 <br />
                         Michael Teagle</h5>
@@ -108,18 +108,18 @@
                     </ul>
                 </div>
                 <div class="eight columns contact-us-form">
-                    <form action="mailto:mkteagle@gmail.com" enctype="text/plain">
+                    <form action="html/inputsReceived.html" method="GET" enctype="text/plain">
                         <div class="six columns">
-                                <input class="u-full-width" type="text" placeholder="Name" id="nameInput">
+                                <input class="u-full-width" type="text" placeholder="Name" id="nameInput" name="nameText">
                             </div>
                             <div class="six columns">
-                                <input class="u-full-width" type="email" placeholder="Email" id="emailInput">
+                                <input class="u-full-width" type="email" placeholder="Email" id="emailInput" name="emailText">
                             </div>
                             <div class="six columns">
-                                <input name="Subject" id="Subject" placeholder="Subject" type="hidden" value="Feedback from $nameInput">
+                                <input name="Subject" id="Subject" placeholder="Subject" type="hidden" value="Feedback from website">
                             </div>
                         <div class="row">
-                            <textarea class="u-full-width" placeholder="Message" id="messageInput"></textarea>
+                            <textarea class="u-full-width" value="" name="Message" placeholder="Message" id="messageInput"></textarea>
                         </div>
                         <input class="button u-pull-right" type="submit" value="Send">
                     </form>
@@ -127,7 +127,7 @@
             </div>
         </section>
     </div>
-    <section class="footer u-full-width" style="background-color:#056892">
+    <section class="footer u-full-width">
         <div class="container">
             <div class="row">
                 <div class="twelve columns">

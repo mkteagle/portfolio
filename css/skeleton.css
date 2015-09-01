@@ -541,6 +541,8 @@ form {
     margin-top: -75px; /* negative value of footer height */
     height: 75px;
     clear: both;
+    background-color: #122C46;
+    color: white;
 }
 .navigation {
     padding: 5px;
@@ -595,6 +597,7 @@ form {
 }
 .contact-us-details {
     padding: 70px;
+    width: 30%;
 }
 .contact-us-details h5 {
     font-size: 2rem;
