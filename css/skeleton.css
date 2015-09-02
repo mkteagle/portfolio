@@ -547,6 +547,22 @@ form {
 .navigation {
     padding: 5px;
 }
+/* =secondMenu
+-------- */
+#secondMenu {
+    margin: 0 auto;
+    padding-top: 1em;
+    width: 100%;
+    position: fixed;
+    z-index: 2001;
+}
+.navContent {
+    position: relative;
+    margin-left: 330px;
+    padding-left: 10px;
+    top: 3px;
+    padding-bottom: 10px;
+}
 /* =Hero
 -------- */
 
@@ -668,3 +684,15 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+/* show and hide
+---------------------------------------- */
+.show {
+    opacity: 1;
+    left: 0;
+    background-color: white;
+    top: 0;
+}
+.top {
+    top: 44px;
+}

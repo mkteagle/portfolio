@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!--<meta http-equiv="refresh" content="3" >-->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/skeleton.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <script src="js/script.js">
+
+    </script>
     <title>Index.html</title>
 </head>
 <body>
@@ -20,10 +24,13 @@
             </ul>
         </nav>
     </div>
-    <!--<div class="sidebar">-->
-    <!--</div>-->
-    <!-- Start of the main page -->
+    <div id="secondMenu">
+        <div class="navContent">
+            This is my secondary menu boom
+        </div>
+    </div>
     <div class="main">
+
         <section id="hero" class="hero u-full-width">
             <div class="hero-image"></div>
             <div class="container centered">
@@ -110,10 +117,10 @@
                 <div class="eight columns contact-us-form">
                     <form action="html/inputsReceived.html" method="GET" enctype="text/plain">
                         <div class="six columns">
-                                <input class="u-full-width" type="text" placeholder="Name" id="nameInput" name="nameText">
+                                <input class="u-full-width" type="text" required placeholder="Name" id="nameInput" name="nameText">
                             </div>
                             <div class="six columns">
-                                <input class="u-full-width" type="email" placeholder="Email" id="emailInput" name="emailText">
+                                <input class="u-full-width" type="email" required placeholder="Email" id="emailInput" name="emailText">
                             </div>
                             <div class="six columns">
                                 <input name="Subject" id="Subject" placeholder="Subject" type="hidden" value="Feedback from website">
@@ -122,7 +129,7 @@
                             <input class="u-full-width" type="url" placeholder="Instagram profile" id="instagramInput" name="instagramText">
                         </div>
                         <div class="row">
-                            <textarea class="u-full-width" value="" name="Message" placeholder="Message" id="messageInput"></textarea>
+                            <textarea class="u-full-width" value="" name="Message" placeholder="Message" id="messageInput" maxLength="512"></textarea>
                         </div>
                         <input class="button u-pull-right" type="submit" value="Send">
                         <input class="button u-pull-right" type="reset" value="Reset">
@@ -131,7 +138,7 @@
             </div>
             </div>
         </section>
-    </div>
+    </nav>
     <section class="footer u-full-width">
         <div class="container">
             <div class="row">
