@@ -517,6 +517,7 @@ form {
     padding-left: 15px;
 }
 .header {
+    display: flex;
     position: relative;
     background-color: #0f2439;
     height: 44px;
@@ -548,6 +549,7 @@ form {
     color: white;
 }
 .navigation {
+    display: flex;
     padding: 5px;
 }
 /* =secondMenu
@@ -560,6 +562,7 @@ form {
     z-index: 2001;
 }
 .navContent {
+    display: flex;
     position: relative;
     margin-left: 330px;
     padding-left: 10px;
@@ -570,7 +573,11 @@ form {
 -------- */
 
 .hero {
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
     padding-left: 15px;
+    padding-top: 80px;
     min-height: 96vh;
     text-align: center;
     position: relative;
