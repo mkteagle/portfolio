@@ -188,13 +188,15 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%; }
 body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
-  font-weight: 400;
-  font-family: "amblelight", "Raleway", Helvetica, Arial, sans-serif;
-  color: #222; }
+    font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "amblelight", "Raleway", Helvetica, Arial, sans-serif;
+    color: #222;
+    min-height: 100%;
+}
 .content {
-    /*position: relative;*/
+    position: absolute;
     width: 100%;
 }
 
@@ -520,7 +522,7 @@ form {
     height: 44px;
     clear: both;
 }
-.sidebar {
+/*.sidebar {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -529,10 +531,11 @@ form {
     float: left;
     padding: 5px;
     background-color: #003366;
-}
+}*/
 .main {
     background-color: #E0E4E7;
-    margin-left: 330px;
+    margin-left: 200px;
+    margin-right: 200px;
     padding-bottom: 15px;
     float: left;
 }
@@ -568,12 +571,13 @@ form {
 
 .hero {
     padding-left: 15px;
-    min-height: 500px;
+    min-height: 96vh;
     text-align: center;
     position: relative;
     background-color: #0f2439; /* layer fill content */
     color: white;
 }
+
 .hero-image {
     background: url("../images/usu-hero.jpg") no-repeat;
     background-size: cover;
@@ -581,6 +585,7 @@ form {
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
     opacity: .9;
+    min-height: 100%;
 }
 .hero-image:after {
     content: '';
