@@ -411,10 +411,10 @@ ul ul,
 ul ol,
 ol ol,
 ol ul {
-  margin: 1.5rem 0 1.5rem 3rem;
+  margin: 0rem 0 0 0rem;
   font-size: 90%; }
-li {
-  margin-bottom: .15rem; }
+/*li {*/
+  /*/!*margin-bottom: .15rem; }*!/*/
 .social-links li{
   display: inline;
 }
@@ -427,12 +427,13 @@ li {
     text-decoration: none;
 }
 .navigation {
-    margin-left: 330px;
+    align-items: center;
+    justify-content: center;
 }
 .navigation li {
     display: inline;
     padding-top: 20px;
-    padding-left: 75px;
+    padding: 0 37.5px 37.5px 0;
 }
 .navigation li a {
     font-size: 16px;
@@ -491,7 +492,6 @@ dl,
 figure,
 table,
 p,
-ul,
 ol,
 form {
   margin-bottom: 2.5rem; }
@@ -533,14 +533,19 @@ form {
     padding: 5px;
     background-color: #003366;
 }*/
+.main-navigation {
+    margin-bottom: 0;
+}
 .main {
+    /*display: flex;*/
+    align-items: center;
     background-color: #E0E4E7;
-    margin-left: 200px;
-    margin-right: 200px;
     padding-bottom: 15px;
     float: left;
 }
 .footer {
+    display: flex;
+    align-items: center;
     position: relative;
     margin-top: -75px; /* negative value of footer height */
     height: 75px;
@@ -549,9 +554,13 @@ form {
     color: white;
 }
 .navigation {
+    min-width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 5px;
 }
+
 /* =secondMenu
 -------- */
 #secondMenu {
@@ -564,7 +573,6 @@ form {
 .navContent {
     display: flex;
     position: relative;
-    margin-left: 330px;
     padding-left: 10px;
     top: 3px;
     padding-bottom: 10px;
