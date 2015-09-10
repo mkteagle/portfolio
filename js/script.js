@@ -4,6 +4,7 @@
 
 window.onload = function () {
     myID = document.getElementById("secondMenu");
+    myiD.className = "top"
 };
 var myScrollFunc = function () {
     var y = window.scrollY;

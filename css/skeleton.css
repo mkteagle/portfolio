@@ -537,8 +537,6 @@ form {
     margin-bottom: 0;
 }
 .main {
-    /*display: flex;*/
-    align-items: center;
     background-color: #E0E4E7;
     padding-bottom: 15px;
     float: left;
@@ -567,7 +565,7 @@ form {
     margin: 0 auto;
     padding-top: 1em;
     width: 100%;
-    position: fixed;
+    background-color: none;
     z-index: 2001;
 }
 .navContent {
@@ -575,7 +573,7 @@ form {
     position: relative;
     padding-left: 10px;
     top: 3px;
-    padding-bottom: 10px;
+    padding-bottom: 3px;
 }
 /* =Hero
 -------- */
@@ -708,6 +706,8 @@ there.
 /* show and hide
 ---------------------------------------- */
 .show {
+    margin-top: 45px;
+    position: fixed;
     opacity: 1;
     left: 0;
     background-color: white;
@@ -715,4 +715,5 @@ there.
 }
 .top {
     top: 44px;
+    position: absolute;
 }
