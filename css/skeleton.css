@@ -179,6 +179,28 @@
     font-weight: normal;
     font-style: normal;
 }
+/* Keep Calm */
+@font-face {
+    font-family: 'keepcalmmedium';
+    src: url('../fonts/KeepCalm/keepcalm-medium-webfont.eot');
+    src: url('../fonts/KeepCalm/keepcalm-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/KeepCalm/keepcalm-medium-webfont.woff') format('woff'),
+    url('../fonts/KeepCalm/keepcalm-medium-webfont.ttf') format('truetype'),
+    url('../fonts/KeepCalm/keepcalm-medium-webfont.svg#keepcalmmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Font Awesome */
+@font-face {
+    font-family: 'fontawesome';
+    src: url('../fonts/FontAwesome/fontawesome-webfont-webfont.eot');
+    src: url('../fonts/FontAwesome/fontawesome-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FontAwesome/fontawesome-webfont-webfont.woff') format('woff'),
+    url('../fonts/FontAwesome/fontawesome-webfont-webfont.ttf') format('truetype'),
+    url('../fonts/FontAwesome/fontawesome-webfont-webfont.svg#fontawesome') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -708,7 +730,7 @@ there.
 .show {
     margin-top: 45px;
     position: fixed;
-    opacity: 1;
+    opacity: 50;
     left: 0;
     background-color: white;
     top: 0;
