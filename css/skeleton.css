@@ -593,6 +593,8 @@ form {
 .navContent {
     display: flex;
     position: relative;
+    align-items: center;
+    justify-content: center;
     padding-left: 10px;
     top: 3px;
     padding-bottom: 3px;
@@ -738,4 +740,13 @@ there.
 .top {
     top: 44px;
     position: absolute;
+}
+
+/* logo
+---------------------------------------- */
+.logo {
+    font-family: "keepcalmmedium";
+    font-size: 18px;
+    color: white;
+    padding-right: 120px;
 }
