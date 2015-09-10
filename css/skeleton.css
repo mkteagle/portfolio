@@ -585,6 +585,7 @@ form {
 -------- */
 #secondMenu {
     margin: 0 auto;
+    opacity: .85;
     padding-top: 1em;
     width: 100%;
     background-color: none;
@@ -592,6 +593,7 @@ form {
 }
 .navContent {
     display: flex;
+    opacity: 1.0;
     position: relative;
     align-items: center;
     justify-content: center;
@@ -748,5 +750,11 @@ there.
     font-family: "keepcalmmedium";
     font-size: 18px;
     color: white;
+    padding-right: 120px;
+}
+.logo2 {
+    font-family: "keepcalmmedium";
+    font-size: 18px;
+    color: black;
     padding-right: 120px;
 }
