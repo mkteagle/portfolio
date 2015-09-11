@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <!--<meta http-equiv="refresh" content="3" >-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/skeleton.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
+
     <script src="js/script.js">
 
     </script>
@@ -14,24 +16,33 @@
 <body>
 <div class="content">
     <div class="header">
-        <!-- Fun Nav -->
-        <nav class="navigation">
-            <ul class="main-navigation" role="navigation">
-                <li><span class="logo">m</span></li>
-                <li><span class="navLi"; style= "color: #B5CCC4"><a href="#bio">Bio</a></span></li>
-                <li><span class="navLi"; style= "color: #B5CCC4"><a href="#projects">Projects</a></span></li>
-                <li><span class="navLi"; style= "color: #B5CCC4"><a href="html/resume.html">Resume</a></span></li>
-                <li><span class="navLi"; style= "color: #B5CCC4"><a href="#contact">Contact</a></span></li>
-            </ul>
-        </nav>
+        <div class="row vertical-align center-block mainNav">
+            <div class="col-sm-1 pull-left logo">m</div>
+            <div class="col-sm-1 col-sm-offset-1"><a href="#bio">Bio</a></div>
+            <div class="col-sm-1 col-sm-offset-1"><a href="#projects">Projects</a></div>
+            <div class="col-sm-1 col-sm-offset-1"><a href="#resume">Resume</a></div>
+            <div class="col-sm-1 col-sm-offset-1"><a href="#contact">Contact</a></div>
+            <div class="col-sm-1 col-sm-offset-1"><a href="#search"><i class="fa fa-search"></i></a></div>
+        </div>
     </div>
     <div id="secondMenu" class="top" >
-        <div class="navContent">
-            <ul class="main-navigation" role="navigation">
-                <li><span class="logo2">m</span></li>
-            </ul>
-            <h6>This is my secondary menu boom</h6>
+        <div class="row vertical-align center-block secNav">
+            <div class="col-sm-1 pull-left logo2">mike</div>
+            <div class="col-sm-1 pull-right col-sm-offset-1"><a href="#bio">Bio</a></div>
+            <div class="col-sm-1 pull-right col-sm-offset-1"><a href="#projects">Projects</a></div>
+            <div class="col-sm-1 pull-right col-sm-offset-1"><a href="#resume">Resume</a></div>
+            <div class="col-sm-1 pull-right col-sm-offset-1"><a href="#contact">Contact</a></div>
+            <div class="col-sm-1 pull-right col-sm-offset-1"><a href="#search"><i class="fa fa-search"></i></a></div>
         </div>
+        <!--<div class="navigation center-block">-->
+            <!--<ul class="main-navigation" role="navigation">-->
+                <!--<li><span class="logo2">m</span></li>-->
+                <!--<li><span>Bio</span></li>-->
+                <!--<li><span>Boom!</span></li>-->
+                <!--<li><span>Resume</span></li>-->
+                <!--<li><span>Contact</span></li>-->
+            <!--</ul>-->
+        <!--</div>-->
     </div>
     <section id="hero" class="hero u-full-width">
         <div class="hero-image"></div>
@@ -90,7 +101,7 @@
                 <div class="four columns contact-us-details">
                     <h3>Our Location</h3>
                     <h5>
-                        1100 West Traverse Pkwy  <br />
+                        <p class="text-nowrap">1100 West Traverse Pkwy</p>
                         Lehi, UT 84043 <br />
                         (801) 683 9129 <br />
                         Michael Teagle</h5>
