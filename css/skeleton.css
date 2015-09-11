@@ -190,17 +190,6 @@
     font-weight: normal;
     font-style: normal;
 }
-/*Font Awesome */
-@font-face {
-    font-family: 'fontawesome';
-    src: url('../fonts/FontAwesome/fontawesome-webfont-webfont.eot');
-    src: url('../fonts/FontAwesome/fontawesome-webfont-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/FontAwesome/fontawesome-webfont-webfont.woff') format('woff'),
-    url('../fonts/FontAwesome/fontawesome-webfont-webfont.ttf') format('truetype'),
-    url('../fonts/FontAwesome/fontawesome-webfont-webfont.svg#fontawesome') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -653,17 +642,20 @@ form {
     font-size: 2rem;
 }
 .contact-us-details .social-links a {
+    font-family: "fontawesome"
     color: #222;
     display: block;
 }
 
 .contact-us-details .social-links li {
+    font-family: "fontawesome"
     list-style: none;
     float: left;
     font-size: 24px;
     margin-right: 10px;
 }
 .contact-us-details .social-links li:last-child {
+    font-family: "fontawesome"
     margin-right: 0;
 }
 .contact-us-form {
