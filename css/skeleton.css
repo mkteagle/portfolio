@@ -735,14 +735,15 @@ there.
     /*padding-right: 120px;*/
 }
 .logo2 {
+    padding-top: 7px;
     font-family: "keepcalmmedium";
     font-size: 18px;
     color: black;
     padding-right: 120px;
 }
 .vertical-align {
-    align-items: center;
     display: flex;
+    align-items: center;
     justify-content: center;
     width: 65%;
 }
@@ -755,6 +756,13 @@ there.
     color: #a4aeb5;
     text-decoration: none;
 }
+.secNav {
+    padding-top: 7px;
+    display: inline;
+    min-width: 55%;
+    margin-right: -15px;
+    margin-left: -15px;
+}
 .secNav a {
     font-size: 1em;
     color: black;
@@ -766,9 +774,6 @@ there.
 }
 .navRow {
     min-width: 55%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-right: -15px;
     margin-left: -15px
 }
