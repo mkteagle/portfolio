@@ -586,7 +586,6 @@ form {
 .hero {
     display: flex;
     align-items: center;
-    /*justify-content: center;*/
     padding-left: 15px;
     padding-top: 80px;
     min-height: 96vh;
@@ -732,7 +731,7 @@ there.
     font-family: "keepcalmmedium";
     font-size: 18px;
     color: white;
-    /*padding-right: 120px;*/
+    padding-right: 120px;
 }
 .logo2 {
     padding-top: 7px;
@@ -741,11 +740,30 @@ there.
     color: black;
     padding-right: 120px;
 }
+.horizont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.navCont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
 .vertical-align {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 65%;
+}
+.mainNav {
+    display: inline;
+    min-width: 40%;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 .mainNav a {
     font-size: 16px;
@@ -757,9 +775,9 @@ there.
     text-decoration: none;
 }
 .secNav {
-    padding-top: 7px;
+    /*padding-top: 7px;*/
     display: inline;
-    min-width: 55%;
+    min-width: 60%;
     margin-right: -15px;
     margin-left: -15px;
 }
@@ -773,7 +791,6 @@ there.
     text-decoration: none;
 }
 .navRow {
-    min-width: 55%;
     margin-right: -15px;
     margin-left: -15px
 }
