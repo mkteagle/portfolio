@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <!--<meta http-equiv="refresh" content="3" >-->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/normalize.css" />
+    <!--<link rel="stylesheet" href="css/normalize.css" />-->
     <link rel="stylesheet" href="css/skeleton.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -63,11 +63,17 @@
     </section>
     <div class="main">
         <a name="bio"></a>
-        <div id="bio">
-            <div id="myPhoto">
-                <img src="images/IMG_0363.JPG"; width="476"; height="357"; alt="Me in New York" />
+        <div class="bio u-full-width">
+            <div class="container">
+                <div class="row">
+                    <div class="twelve columns myPhoto">
+                        <h3 class="separator">About Me!</h3>
+                        <img src="images/IMG_0363.JPG"; width="476"; height="357"; alt="Me in New York" />
+                    </div>
+                </div>
             </div>
-            <h4>Bio here</h4>
+        </div>
+        <div class="bioText">
             Lorem ipsum dolor sit amet, omnis quidam sensibus an duo, ex eam odio accusamus reformidans. Te quo mollis omnesque. Nihil utamur offendit cu his, vim amet splendide id, id probo aperiam viderer eos. Sed eu agam doming volumus. Viris virtute ex mei. Per no debitis argumentum omittantur, per affert nostrud dissentias ei, ei vim purto legere molestie.
             Id utinam ubique sit. In sea duis audiam reformidans, mei at modus eleifend forensibus. Duo ex cibo nemore dolorem, vel ne sanctus honestatis. Suscipit vituperata ius et. Exerci aperiri quaerendum sit id, probatus intellegam usu et, an eum ridens aliquam labores. Quis assentior disputando vix ne, ei nibh virtute instructior duo.
             Ex qui ornatus suscipiantur, affert alienum probatus ex sit. Sea et unum vero volumus, sit munere vocent animal ut. Recusabo mnesarchum eum no, usu causae definitiones et. Per ex quem salutatus. Eros porro fugit at vis. Nec te oporteat vivendum, etiam clita mea eu, quaeque delenit cotidieque mei ut.
@@ -120,7 +126,7 @@
             </div>
         </div>
         <a name="contact"></a>
-        <section id="contact" class="contact u-full-width">
+        <div class="contact u-full-width">
             <div class="container">
                 <div class="row">
                     <div class="twelve columns">
@@ -129,13 +135,13 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
         <div class="container contact-us u-full-width u-max-full-width">
             <div class="row">
                 <div class="four columns contact-us-details">
                     <h3>Our Location</h3>
                     <h5>
-                        <p class="text-nowrap">1100 West Traverse Pkwy</p>
+                        1100 West Traverse Pkwy <br />
                         Lehi, UT 84043 <br />
                         (801) 683 9129 <br />
                         Michael Teagle</h5>
@@ -179,8 +185,14 @@
                         <div class="row">
                             <textarea class="u-full-width" value="" name="Message" placeholder="Message" id="messageInput" maxLength="512"></textarea>
                         </div>
-                        <input class="button u-pull-right" type="submit" value="Send">
-                        <input class="button u-pull-right offset-by-one" type="reset" value="Reset">
+                        <div class="buttonRow">
+                            <div class="col-sm-2 u-pull-right">
+                                <input class="button" type="reset" value="Reset">
+                            </div>
+                            <div class="col-sm-2">
+                                <input class="button" type="submit" value="Send">
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
