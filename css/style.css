@@ -1,12 +1,45 @@
 .portfolioCont {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     width: 100%;
     /*margin-left: -15px;*/
     /*margin-right: -15px;*/
 }
+.portfolioFIM {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 42px;
+}
+.black {
+    color: black;
+    background-color: white;
+    opacity: 0.75;
+}
+.white {
+    background-color: black;
+    opacity: 0.75;
+    color: white;
+}
 .portfolioSingle {
-    width: 48%;
-    height: 100%;
+    display: flex;
+    width: 50%;
+    height: 628px;
+}
+.imageOne {
+    display: flex;
+    background-image: url(../images/newyorkcity.jpg);
+}
+.imageTwo {
+    display: flex;
+    background-image: url(../images/ocean.jpg);
+}
+.imageThree {
+    display: flex;
+    background-image: url(../images/london.jpg);
+}
+.imageFour {
+    display: flex;
+    background-image: url(../images/washingtondc.jpg);
 }
