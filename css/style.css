@@ -121,7 +121,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
     width: 80%;
 }
 .vertical-align {
@@ -132,7 +131,6 @@
 }
 .mainNav {
     display: flex;
-    display: block;
 }
 .mainNav a {
     font-size: 16px;
@@ -161,7 +159,6 @@
     display: flex;
     display: block;
     align-content: flex-start;
-    flex-flow: row;
 }
 /* show and hide
 ---------------------------------------- */
@@ -197,6 +194,5 @@
 .container {
     position: relative;
     width: 100%;
-    padding: 0 20px;
     box-sizing: border-box;
 }
