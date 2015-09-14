@@ -2,8 +2,6 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    /*margin-left: -15px;*/
-    /*margin-right: -15px;*/
 }
 .portfolioFIM {
     display: flex;
@@ -60,6 +58,17 @@
     width: 100%;
     background-color: white;
 }
+
+/* bio Styling
+---------------------------*/
+.photosRow {
+    display: flex;\
+    display: block;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    flex-wrap: wrap;
+}
 .bio {
     display: flex;
     justify-content: center;
@@ -78,14 +87,12 @@
     padding: 15px;
     background-color: white;
 }
-.photosRow {
+.bioWrapper {
     display: flex;
-    width: 50%;
     height: 100%;
-    padding: 10px;
-    flex-wrap: wrap;
+    width: 100%;
+    background-color: white;
 }
-
 /* logo
 ---------------------------------------- */
 .logo {
@@ -121,7 +128,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 80%;
+    width: 90%;
 }
 .vertical-align {
     display: flex;
@@ -143,7 +150,6 @@
 }
 .secNav {
     display: flex;
-    display: block;
     align-items: center;
 }
 .secNav a {
@@ -195,4 +201,12 @@
     position: relative;
     width: 100%;
     box-sizing: border-box;
+}
+.myPhoto img {
+    height: 357px;
+    width: 476px;
+}
+.photosRow img {
+    width: 50%;
+    height: 50%;
 }
