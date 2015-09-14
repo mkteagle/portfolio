@@ -7,9 +7,9 @@
     width: 100%;
 }
 .portfolioFIM {
-    display: flex;
     display: -webkit-flex;
     display: -ms-flexbox;
+    display: flex;
     -webkit-flex-align-items: flex-end;
     align-items: flex-end;
     padding-left: 20px;
@@ -93,7 +93,10 @@
     flex-wrap: wrap;
 }
 .bio {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-justify-content: center;
     justify-content: center;
     -webkit-align-items: center;
     align-items: center;
@@ -118,6 +121,7 @@
     display: -ms-flexbox;
     display: flex;
     height: 100%;
+    width: 100%;
     width: 100%;
     background-color: white;
 }
