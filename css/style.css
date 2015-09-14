@@ -17,12 +17,18 @@
     font-size: 42px;
 }
 .black {
+    height: 100px;
+    align-self: flex-end;
+    -webkit-align-self: flex-end;
     padding-left: 10px;
     color: black;
     background-color: white;
     opacity: 0.75;
 }
 .white {
+    height: 100px;
+    align-self: flex-end;
+    -webkit-align-self: flex-end;
     padding-left: 10px;
     background-color: black;
     opacity: 0.75;
@@ -90,6 +96,7 @@
     width: 50%;
     height: 100%;
     padding: 10px;
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 .bio {
