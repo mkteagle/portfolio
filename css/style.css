@@ -6,16 +6,13 @@
     flex-direction: row;
     width: 100%;
 }
-.portfolioFIM {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-align-items: flex-end;
-    align-items: flex-end;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    font-size: 42px;
-}
+/*.portfolioFIM {*/
+    /*display: -webkit-flex;*/
+    /*display: -ms-flexbox;*/
+    /*display: flex;*/
+    /*-webkit-flex-align-items: flex-end;*/
+    /*align-items: flex-end;*/
+/*}*/
 .black {
     height: 100px;
     align-self: flex-end;
@@ -24,6 +21,7 @@
     color: black;
     background-color: white;
     opacity: 0.75;
+    font-size: 42px;
 }
 .white {
     height: 100px;
@@ -33,13 +31,18 @@
     background-color: black;
     opacity: 0.75;
     color: white;
+    font-size: 42px;
 }
 .portfolioSingle {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-flex-align-items: flex-end;
+    align-items: flex-end;
     width: 50%;
     height: 628px;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 .imageOne {
     display: -webkit-flex;
@@ -69,6 +72,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-justify-content: flex-end;
     justify-content: flex-end;
     margin-right: -15px;
     margin-left: -15px
