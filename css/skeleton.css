@@ -542,7 +542,10 @@ form {
     float: left;
 }
 .footer {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-align-items: center;
     align-items: center;
     position: relative;
     margin-top: -75px; /* negative value of footer height */
@@ -553,7 +556,11 @@ form {
 }
 .navigation {
     min-width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
     align-items: center;
     justify-content: center;
     padding: 5px;
@@ -562,7 +569,10 @@ form {
 -------- */
 
 .hero {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-align-items: center;
     align-items: center;
     padding-left: 15px;
     padding-top: 80px;

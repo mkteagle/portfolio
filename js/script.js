@@ -4,12 +4,12 @@
 
 window.onload = function () {
     myID = document.getElementById("secondMenu");
-    myiD.className = "top"
+    myID.className = "top"
 };
 var myScrollFunc = function () {
     var y = window.scrollY;
     if (y >= 44) {
-       myID.className = "show"
+        myID.className = "show"
     } else {
         myID.className = "top"
     }
