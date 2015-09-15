@@ -23,6 +23,13 @@
     opacity: 0.75;
     font-size: 42px;
 }
+.black a {
+    color: black;
+}
+.black a:hover {
+    color: black;
+    text-decoration: underline;
+}
 .white {
     height: 100px;
     align-self: flex-end;
@@ -32,6 +39,14 @@
     opacity: 0.75;
     color: white;
     font-size: 42px;
+}
+.white a {
+    color: white;
+}
+.white a:hover {
+    text-decoration: underline;
+    text-decoration: dotted;
+    color: white;
 }
 .portfolioSingle {
     display: -webkit-flex;
@@ -261,11 +276,6 @@
     background-color: #0f2439;
     height: 44px;
 }
-.container {
-    position: relative;
-    width: 100%;
-    box-sizing: border-box;
-}
 .myPhoto img {
     height: 357px;
     width: 476px;
@@ -295,16 +305,27 @@
     -ms-flex-direction: row;
     flex-direction: row;
     align-items: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
     justify-content: center;
     width: 100%;
     height: 150px;
  }
+.resumeItems {
+    justify-self: center;
+    -webkit-justify-self: center;
+}
  .seeRow {
      width: 100%;
      display: flex;
+     display: -webkit-flex;
+     display: -ms-flexbox;
      justify-content: flex-end;
+     -webkit-justify-content: flex-end;
+     -ms-justify-content: flex-end;
  }
 .seeMore {
     margin-top: 40px;
+    -webkit-justify-self: flex-end;
     justify-self: flex-end;
 }
