@@ -285,7 +285,31 @@
     text-align: center;
     height: 500px;
     width: 100%;
+}.resumeRow {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+ }
+.purchLogo {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    background-image: url(../images/newyorkcity.jpg);
+    height: 25%
+    widht: 25%
 }
-.resumePiece {
-    padding: 10px 5px 10px 5px;
+. usuLogo {
+
+}
+.deltaLogo {
+
+}
+.verizonLogo {
+
+}
+.ihcLogo {
+
 }
