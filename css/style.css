@@ -292,24 +292,26 @@
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100px;
  }
-.purchLogo {
+.resumeLogo {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    background-image: url(../images/newyorkcity.jpg);
-    height: 25%
-    widht: 25%
+    max-width: 150px;
+    max-height: 150px;
 }
-. usuLogo {
-
+.resumeLogoRectangle {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 300px;
+    max-height: 150px;
 }
-.deltaLogo {
-
-}
-.verizonLogo {
-
-}
-.ihcLogo {
-
+.resumeLogo img {
+    max-width: 100%;
+    max-height: 100%;
 }
