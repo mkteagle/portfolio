@@ -6,13 +6,6 @@
     flex-direction: row;
     width: 100%;
 }
-/*.portfolioFIM {*/
-    /*display: -webkit-flex;*/
-    /*display: -ms-flexbox;*/
-    /*display: flex;*/
-    /*-webkit-flex-align-items: flex-end;*/
-    /*align-items: flex-end;*/
-/*}*/
 .black {
     height: 100px;
     align-self: flex-end;
@@ -328,4 +321,7 @@
     margin-top: 40px;
     -webkit-justify-self: flex-end;
     justify-self: flex-end;
+    font-family: keepcalmmedium;
+    font-size: 18px;
+    padding-right: 20px;
 }
