@@ -3,15 +3,19 @@
  */
 
 window.onload = function () {
-    myID = document.getElementById("secondMenu");
-    myID.className = "top"
+    myId = document.getElementById("secondMenu");
+    myId.className = "top"
+};
+window.onrefresh= function () {
+    myId = document.getElementById("secondMenu");
+    myId.className = "show"
 };
 var myScrollFunc = function () {
     var y = window.scrollY;
     if (y >= 44) {
-        myID.className = "show"
+        myId.className = "show"
     } else {
-        myID.className = "top"
+        myId.className = "top"
     }
 };
 
