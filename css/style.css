@@ -233,7 +233,7 @@
     flex-flow: wrap;
     -webkit-align-self: center;
     align-self: center;
-    font-size: .75vw;
+    font-size: .8vw;
 }
 .bioRow {
     display: flex;
@@ -324,6 +324,12 @@
     -webkit-justify-content: space-around;
     justify-content: space-around;
     width: 100px;
+}
+.socialNav a {
+    color: white;
+}
+.socialNav a:hover {
+    color: #a4aeb5;
 }
 .mainNav a {
     font-size: 16px;
