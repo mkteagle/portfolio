@@ -204,7 +204,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-alignt-items: center;
+    -webkit-align-items: center;
     align-items: center;
     text-align: left;
     height: 100%;
